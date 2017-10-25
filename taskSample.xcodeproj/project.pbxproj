@@ -13,6 +13,8 @@
 		B0B1707C1E84EAE400E50FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B1707A1E84EAE400E50FB8 /* Main.storyboard */; };
 		B0B1707E1E84EAE400E50FB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0B1707D1E84EAE400E50FB8 /* Assets.xcassets */; };
 		B0B170811E84EAE500E50FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0B1707F1E84EAE500E50FB8 /* LaunchScreen.storyboard */; };
+		B0B1708D1E84ED1100E50FB8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1708C1E84ED1100E50FB8 /* SecondViewController.m */; };
+		B0B170901E84F1EE00E50FB8 /* customTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0B1708F1E84F1EE00E50FB8 /* customTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		B0B1707D1E84EAE400E50FB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0B170801E84EAE500E50FB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0B170821E84EAE500E50FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0B1708B1E84ED1100E50FB8 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		B0B1708C1E84ED1100E50FB8 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		B0B1708E1E84F1EE00E50FB8 /* customTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = customTableViewCell.h; sourceTree = "<group>"; };
+		B0B1708F1E84F1EE00E50FB8 /* customTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = customTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				B0B170751E84EAE400E50FB8 /* AppDelegate.m */,
 				B0B170771E84EAE400E50FB8 /* ViewController.h */,
 				B0B170781E84EAE400E50FB8 /* ViewController.m */,
+				B0B1708E1E84F1EE00E50FB8 /* customTableViewCell.h */,
+				B0B1708F1E84F1EE00E50FB8 /* customTableViewCell.m */,
+				B0B1708B1E84ED1100E50FB8 /* SecondViewController.h */,
+				B0B1708C1E84ED1100E50FB8 /* SecondViewController.m */,
 				B0B1707A1E84EAE400E50FB8 /* Main.storyboard */,
 				B0B1707D1E84EAE400E50FB8 /* Assets.xcassets */,
 				B0B1707F1E84EAE500E50FB8 /* LaunchScreen.storyboard */,
@@ -150,6 +160,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0B170901E84F1EE00E50FB8 /* customTableViewCell.m in Sources */,
+				B0B1708D1E84ED1100E50FB8 /* SecondViewController.m in Sources */,
 				B0B170791E84EAE400E50FB8 /* ViewController.m in Sources */,
 				B0B170761E84EAE400E50FB8 /* AppDelegate.m in Sources */,
 				B0B170731E84EAE300E50FB8 /* main.m in Sources */,
